@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'one/ld8'
   get 'one/ld9'
   get 'one/ld10'
-  get 'static/home'
+  root to: 'static#home'
   get 'static/how'
   get 'static/why'
   get 'static/who'
