@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .roboto {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .opensans {
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ .dmdisplay {
+    font-family: 'DM Serif Display', serif;
+ }
+
+ .wizzycolor {
+    background-color: indigo;
+ }
+
+ .wizzytextcolor {
+    color: indigo;
+ }
+
+ .wizzytextsecondcolor {
+    color: salmon;
+ }
+
+.h2wizzy {
+    color: indigo;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+ .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.hero {
+   background-image: url("/assets/hero1.svg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   /*background-size: auto;;*/
+  }
+
+.recruiterlink {
+   float: right;
+   position: absolute;
+   right: 1rem;
+   left: auto;
+   left: auto;
+   top: 50%;
+   bottom: auto;
+   transform: translate(0%, -50%);
+}
+
+.night {
+   background-image: url("/assets/night.svg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}

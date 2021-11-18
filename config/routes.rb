@@ -1,0 +1,22 @@
+Rails.application.routes.draw do
+  get 'one/ld1'
+  get 'one/ld2'
+  get 'one/ld3'
+  get 'one/ld4'
+  get 'one/ld5'
+  get 'one/ld6'
+  get 'one/ld7'
+  get 'one/ld8'
+  get 'one/ld9'
+  get 'one/ld10'
+  get 'static/home'
+  get 'static/how'
+  get 'static/why'
+  get 'static/who'
+  get 'static/price'
+  get 'static/faq'
+  get 'static/contact'
+  get 'static/terms'
+  get 'static/comingsoon'
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+end
